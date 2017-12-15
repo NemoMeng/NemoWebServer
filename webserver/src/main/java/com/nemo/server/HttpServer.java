@@ -34,6 +34,7 @@ public class HttpServer {
     private void  start() {
         ServerSocket serverSocket = null;
         try {
+            //打开端口访问
             serverSocket = new ServerSocket(GlobalParams.DEFAULT_PORT, 1, InetAddress.getByName("127.0.0.1"));
         } catch (UnknownHostException e) {
             e.printStackTrace();

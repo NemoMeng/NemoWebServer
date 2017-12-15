@@ -250,7 +250,7 @@ public class Request {
             }
             String cookieArr[] = str.split("=");
             if(cookieArr.length>1) {
-                cookie.put(cookieArr[0], cookieArr[1]);
+                cookie.put(cookieArr[0], str.replaceFirst(cookieArr[0]+"=",""));
             }
         }
     }

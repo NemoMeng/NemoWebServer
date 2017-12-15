@@ -42,13 +42,17 @@ public class DealRequestThread implements Runnable {
             request.parser();
 
             //处理请求并返回结果
-            Response response = new Response(output);
-            response.setRequest(request);
+            Response response = new Response(output,request);
             response.output();
 
-            //如果命令是终止服务，则尝试终止
-            GlobalParams.SHUTDOWN = request.getUri().equals(GlobalParams.SHUTDOWN_COMMAND);
             socket.close();
+
+            //如果命令是终止服务，则设定不再接收下一个网络请求
+            GlobalParams.SHUTDOWN = request.getUri().equals(GlobalParams.SHUTDOWN_COMMAND);
+            //尝试从线程关闭整个程序，这里可能还需要做一些退出前的保存操作
+            if(GlobalParams.SHUTDOWN) {
+                System.exit(0);
+            }
         } catch (IOException e) {
             //错误只做异常堆栈输出，不向外抛出
             e.printStackTrace();

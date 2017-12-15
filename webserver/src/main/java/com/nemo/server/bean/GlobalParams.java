@@ -18,7 +18,7 @@ public class GlobalParams {
     public static final String WEB_ROOT = System.getProperty("user.dir") + File.separator + "webroot";
 
     /**
-     * 关闭操作的命令
+     * 关闭操作的命令，需要考虑这个命令执行的安全性
      */
     public static final String SHUTDOWN_COMMAND = "/SHUTDOWN";
 

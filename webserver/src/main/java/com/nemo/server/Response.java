@@ -33,18 +33,11 @@ public class Response {
     private static final int BUFFER_SIZE = 1024;
 
     /**
-     * 设置写出流对象
+     * 设置写出流对象/请求参数
      * @param output
      */
-    public Response(OutputStream output) {
+    public Response(OutputStream output,Request request) {
         this.output = output;
-    }
-
-    /**
-     * 设置请求对象
-     * @param request
-     */
-    public void setRequest(Request request) {
         this.request = request;
     }
 

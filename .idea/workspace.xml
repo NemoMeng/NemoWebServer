@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c279765b-6442-44e9-8f8e-ea83a58a5912" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webserver/target/classes/com/nemo/server/Request.class" afterPath="$PROJECT_DIR$/webserver/target/classes/com/nemo/server/Request.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webserver/target/classes/com/nemo/server/thread/DealRequestThread.class" afterPath="$PROJECT_DIR$/webserver/target/classes/com/nemo/server/thread/DealRequestThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/HttpServer.java" afterPath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/HttpServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Request.java" afterPath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Request.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Response.java" afterPath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Response.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/bean/GlobalParams.java" afterPath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/bean/GlobalParams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/thread/DealRequestThread.java" afterPath="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/thread/DealRequestThread.java" />
     </list>
     <ignored path="$PROJECT_DIR$/webserver/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,17 +34,17 @@
       <file leaf-file-name="HttpServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/HttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="248">
+              <caret line="61" column="55" lean-forward="true" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
               <folding>
-                <element signature="e#0#1784#0" expanded="true" />
+                <element signature="e#0#1805#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -54,8 +60,8 @@
       <file leaf-file-name="DealRequestThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/thread/DealRequestThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="290">
+              <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#515#516#0" expanded="true" />
@@ -65,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalParams.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GlobalParams.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/bean/GlobalParams.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
@@ -78,8 +84,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="112">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -88,8 +94,8 @@
       <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="157" column="31" lean-forward="false" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+            <state relative-caret-position="266">
+              <caret line="281" column="25" lean-forward="true" selection-start-line="281" selection-start-column="25" selection-end-line="281" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#624#640#0" expanded="true" />
@@ -100,16 +106,16 @@
                 <element signature="e#1098#1099#0" expanded="true" />
                 <element signature="e#2818#2819#0" expanded="true" />
                 <element signature="e#2856#2857#0" expanded="true" />
-                <element signature="e#7494#7495#0" expanded="true" />
-                <element signature="e#7520#7521#0" expanded="true" />
-                <element signature="e#7550#7551#0" expanded="true" />
-                <element signature="e#7576#7577#0" expanded="true" />
-                <element signature="e#7622#7623#0" expanded="true" />
-                <element signature="e#7651#7652#0" expanded="true" />
-                <element signature="e#7708#7709#0" expanded="true" />
-                <element signature="e#7748#7749#0" expanded="true" />
-                <element signature="e#7805#7806#0" expanded="true" />
-                <element signature="e#7845#7846#0" expanded="true" />
+                <element signature="e#7519#7520#0" expanded="true" />
+                <element signature="e#7545#7546#0" expanded="true" />
+                <element signature="e#7575#7576#0" expanded="true" />
+                <element signature="e#7601#7602#0" expanded="true" />
+                <element signature="e#7647#7648#0" expanded="true" />
+                <element signature="e#7676#7677#0" expanded="true" />
+                <element signature="e#7733#7734#0" expanded="true" />
+                <element signature="e#7773#7774#0" expanded="true" />
+                <element signature="e#7830#7831#0" expanded="true" />
+                <element signature="e#7870#7871#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,14 +124,10 @@
       <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="386">
+              <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,12 +170,13 @@
         <option value="$PROJECT_DIR$/webserver/src/main/java/HttpServer.java" />
         <option value="$PROJECT_DIR$/webserver/src/main/java/thread/DealRequestThread.java" />
         <option value="$PROJECT_DIR$/webserver/src/main/java/bean/HeaderParams.java" />
-        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/thread/DealRequestThread.java" />
-        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/HttpServer.java" />
-        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Response.java" />
-        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Request.java" />
         <option value="$PROJECT_DIR$/webroot/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Request.java" />
+        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/bean/GlobalParams.java" />
+        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/HttpServer.java" />
+        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Response.java" />
+        <option value="$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/thread/DealRequestThread.java" />
       </list>
     </option>
   </component>
@@ -470,12 +473,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513235044171</updated>
-      <workItem from="1513235045608" duration="10668000" />
+      <workItem from="1513235045608" duration="15686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10668000" />
+    <option name="totallyTimeSpent" value="15686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -518,7 +521,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -563,10 +566,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="157" column="31" lean-forward="false" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+        <state relative-caret-position="266">
+          <caret line="281" column="25" lean-forward="true" selection-start-line="281" selection-start-column="25" selection-end-line="281" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#624#640#0" expanded="true" />
@@ -577,48 +599,36 @@
             <element signature="e#1098#1099#0" expanded="true" />
             <element signature="e#2818#2819#0" expanded="true" />
             <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#7494#7495#0" expanded="true" />
-            <element signature="e#7520#7521#0" expanded="true" />
-            <element signature="e#7550#7551#0" expanded="true" />
-            <element signature="e#7576#7577#0" expanded="true" />
-            <element signature="e#7622#7623#0" expanded="true" />
-            <element signature="e#7651#7652#0" expanded="true" />
-            <element signature="e#7708#7709#0" expanded="true" />
-            <element signature="e#7748#7749#0" expanded="true" />
-            <element signature="e#7805#7806#0" expanded="true" />
-            <element signature="e#7845#7846#0" expanded="true" />
+            <element signature="e#7519#7520#0" expanded="true" />
+            <element signature="e#7545#7546#0" expanded="true" />
+            <element signature="e#7575#7576#0" expanded="true" />
+            <element signature="e#7601#7602#0" expanded="true" />
+            <element signature="e#7647#7648#0" expanded="true" />
+            <element signature="e#7676#7677#0" expanded="true" />
+            <element signature="e#7733#7734#0" expanded="true" />
+            <element signature="e#7773#7774#0" expanded="true" />
+            <element signature="e#7830#7831#0" expanded="true" />
+            <element signature="e#7870#7871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/HttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="61" column="55" lean-forward="true" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#1805#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="386">
+          <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/HttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1784#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -626,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webserver/src/main/java/com/nemo/server/thread/DealRequestThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="290">
+          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
@@ -641,17 +651,6 @@
         <state relative-caret-position="248">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="192">
-            <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
